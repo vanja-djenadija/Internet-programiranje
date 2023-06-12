@@ -11,4 +11,5 @@ Priprema za pismeni dio ispita
 - `text-align="justify"`
 
 ## Lab 2 (HTML 5)
-- 
+![image](https://github.com/vanja-djenadija/Internet-programiranje/assets/130909026/e1face73-7391-4b2e-84d0-93150ae08ea1)
+- `section`
