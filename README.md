@@ -29,7 +29,23 @@ Priprema za pismeni dio ispita
   ```
 - ```html
   <iframe width="420" height="315"
-			src="https://www.youtube.com/embed/tgbNymZ7vqY">
+	src="https://www.youtube.com/embed/tgbNymZ7vqY">
   </iframe> 
   ```
-- 
+- ```javascript
+	<script>
+		function prikaziPodatke() {
+			var elementi = document.forms[0].elements;
+			var tekst = "Prezime: " + elementi.prezime.value
+						+ " Ime: " + elementi.ime.value
+						+ " Broj indeksa: " + elementi.broj_indeksa.value
+						+ " Ciklus: " + elementi.ciklus.value
+						+ " Godina studija: " + elementi.godina.value
+						+ " Broj pol. ispita: " + elementi.brojPolozenihIspita.value
+						+ " Prvi put: " + elementi.prvi.value;
+			alert(tekst);
+		}
+	</script>
+  ```
+- a
+
