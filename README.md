@@ -47,5 +47,50 @@ Priprema za pismeni dio ispita
 		}
 	</script>
   ```
-- a
+  
+# Lab 3 (CSS)
+- `<link rel="stylesheet" href="styles/style.css"/>`
+- ```css
+  .row-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	flex-grow: 1;
+   }
+   ```
+- Vertikalno poravnanje teksta `height: 70px` i `line-height:70px`
+- `position:absolute`, `left: 0` right, top, bottom
+- `overflow-y: auto` nad `.content` skroluje se samo content ne i footer
+-  ```css
+   .list li:nth-child(even) {
+	color: blue;
+    }
+    ```
+- `overflow:hidden` `text-overflow: ellipsis`
+- `display: inline-block`, `none`, `block`
+
+# Lab 4 (Javascript)
+- `<script src="script.js"></script>`
+-  `document.getElementById("user").innerHTML = "nesto"`
+-  `document.getElementsByTagName("input")`
+-  `var storage = localStorage.getItem(storageKey)`
+-  `data = JSON.parse(storage)`
+-   `localStorage.setItem(storageKey, JSON.stringify(data))`
+
+# Lab 5 (Servleti)
+```java
+protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+	PrintWriter pw = response.getWriter();
+	response.setContentType("text/html");
+	pw.print(
+			"<html><head><meta http-equiv='Content-Type' content='text/html' charset='UTF-8'/><title>First</title></head>");
+	pw.print("<body><form method='post' action='SecondServlet'>Ime: <input type='text' name='ime'/><br/>");
+	pw.print(
+			"Prezime: <input type=\"text\" name=\"prezime\"/><br/> Godina rodjenja: <input type=\"text\" name=\"godinaRodjenja\"/><br/>");
+	pw.print(
+			"Korisnicko ime: <input type=\"text\" name=\"korisnickoIme\"/><br/><input type=\"submit\" value=\"Prijava\"/></form></body></html>");
+	pw.close();
+}
+```
 
