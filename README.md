@@ -132,4 +132,23 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
    RequestDispatcher dispatcher = request.getRequestDispatcher(address);
    dispatcher.forward(request, response);
    ```
+
+## Lab 8 (REST i Ajax)
+- paketi: `api`, `beans`, `servlet`, `model`
+- ```xml
+  <servlet>
+		<servlet-name>Jersey RESTful Application</servlet-name>
+		<servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+		<init-param>
+			<param-name>jersey.config.server.provider.packages</param-name>
+			<param-value>net.etfbl</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Jersey RESTful Application</servlet-name>
+		<url-pattern>/api/*</url-pattern>
+	</servlet-mapping>
+  ```
 - 
+
+## Angular
