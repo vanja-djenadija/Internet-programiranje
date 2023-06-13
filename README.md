@@ -123,3 +123,13 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
   ```
 - `<%@include file="WEB-INF/header.jsp"%>` header i footer su sakriveni u WEB-INF, ostale stranice u WebContent
 - `session.invalidate()`
+
+## Lab 7 (JSP M2)
+- U `WEB-INF` sakriti JSP stranice od korisnika
+- paketi: `dto`, `dao`, `controller`, `beans`
+- Contoroller je Servlet
+- ```java
+   RequestDispatcher dispatcher = request.getRequestDispatcher(address);
+   dispatcher.forward(request, response);
+   ```
+- 
