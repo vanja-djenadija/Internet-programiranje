@@ -113,3 +113,11 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 	pitanje = fr.readLine();
   ```
 
+## Lab 6 (JSP)
+- ```jsp
+	<%@page import="net.etfbl.ip.lab06.beans.UserBean"%>
+	<jsp:useBean id="userBean" class="net.etfbl.ip.lab06.beans.UserBean" scope="session"></jsp:useBean>
+	<jsp:useBean id="userManager" class="net.etfbl.ip.lab06.service.UserManager" scope="application"></jsp:useBean>
+	<jsp:setProperty property="username" name="userBean" param="username" />
+	<jsp:setProperty property="password" name="userBean" param="password" />
+```
