@@ -121,3 +121,5 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 	<jsp:setProperty property="username" name="userBean" param="username" />
 	<jsp:setProperty property="password" name="userBean" param="password" />
 ```
+- `<%@include file="WEB-INF/header.jsp"%>` header i footer su sakriveni u WEB-INF, ostale stranice u WebContent
+- `session.invalidate()`
