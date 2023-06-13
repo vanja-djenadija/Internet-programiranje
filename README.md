@@ -48,7 +48,7 @@ Priprema za pismeni dio ispita
 	</script>
   ```
   
-# Lab 3 (CSS)
+## Lab 3 (CSS)
 - `<link rel="stylesheet" href="styles/style.css"/>`
 - ```css
   .row-container {
@@ -69,7 +69,7 @@ Priprema za pismeni dio ispita
 - `overflow:hidden` `text-overflow: ellipsis`
 - `display: inline-block`, `none`, `block`
 
-# Lab 4 (Javascript)
+## Lab 4 (Javascript)
 - `<script src="script.js"></script>`
 -  `document.getElementById("user").innerHTML = "nesto"`
 -  `document.getElementsByTagName("input")`
@@ -77,7 +77,7 @@ Priprema za pismeni dio ispita
 -  `data = JSON.parse(storage)`
 -   `localStorage.setItem(storageKey, JSON.stringify(data))`
 
-# Lab 5 (Servleti)
+## Lab 5 (Servleti)
 ```java
 protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
@@ -93,4 +93,12 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 	pw.close();
 }
 ```
+- `response.sendRedirect("FirstServlet");`
+- `String username = request.getParameter("korisnickoIme");`
+- ```java
+	HttpSession session = request.getSession();
+	session.setAttribute("igrac", p);
+	session.setAttribute("igraci", users);
+  ```
+  
 
