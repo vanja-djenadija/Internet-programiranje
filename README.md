@@ -100,5 +100,8 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 	session.setAttribute("igrac", p);
 	session.setAttribute("igraci", users);
   ```
-  
+- ```html
+	<script type=\"text/javascript\">function second(){document.getElementById('forma').submit();}</script>
+	<a href='javascript:second()'>Third</a>
+  ```
 
