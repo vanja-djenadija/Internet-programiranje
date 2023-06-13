@@ -104,4 +104,8 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 	<script type=\"text/javascript\">function second(){document.getElementById('forma').submit();}</script>
 	<a href='javascript:second()'>Third</a>
   ```
+- ```java
+	HttpSession session = request.getSession();
+	Player p = (Player) session.getAttribute("igrac");
+```
 
