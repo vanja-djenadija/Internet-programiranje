@@ -107,5 +107,9 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 - ```java
 	HttpSession session = request.getSession();
 	Player p = (Player) session.getAttribute("igrac");
-```
+  ```
+- ```java
+	BufferedReader fr = new BufferedReader(new InputStreamReader(getServletContext().getResourceAsStream("fajlovi/BP.txt")));
+	pitanje = fr.readLine();
+  ```
 
