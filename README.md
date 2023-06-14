@@ -152,3 +152,9 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 - 
 
 ## Angular
+- Instaliranje node.js
+- `npm install -g @angular/cli`
+- `ng new my-app`
+- `ng serve --open`
+- `ng add @angular/material`
+- `ng g c naziv`
