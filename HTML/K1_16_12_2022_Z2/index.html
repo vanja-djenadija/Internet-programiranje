@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+  <title>Drugi zadatak</title>
+  <meta charset="UTF8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js"></script>
+</head>
+<body onload="init()">
+    <div class="container">
+        <div class="box">
+            <ol>
+                <li>IP</li>
+                <li>PJ2</li>
+                <li>MDP</li>
+            </ol>
+        </div>
+        <div class="box center">
+            <img src="https://www.banjaluka.com/wp-content/uploads/2022/07/etf-banjaluka.jpg" alt="ETF Slika" width="300px" height="300px"/>
+        </div>
+        <div class="box center">
+            <table>
+                <thead>
+                    <th>Ime</th>
+                    <th>Prezime</th>
+                    <th>Broj indeksa</th>
+                </thead>
+                <tbody id="tableContent">
+                </tbody>
+            </table>
+        </div>
+        <div class="box center">
+            <a href="https://etf.unibl.org/">Link stranice fakulteta </a>
+        </div>
+        <div class="box center">
+            <form action="javascript:save()" method="post">
+                Ime <input type="text"  id="name" required/><br/>
+                Godina rođenja <input type="number" id="birth" min="1920" max="2022"  required/><br/>
+                Opis <textarea name="des" required></textarea><br/>
+                Prioritet 
+                <select id="priority" required>
+                    <option value="1">Visok</option>
+                    <option value="2">Srednji</option>
+                    <option value="3">Nizak</option>
+                </select><br/>
+                <input type="submit" value="Sačuvaj"/>
+            </form>
+        </div>
+        <div class="box center">
+            <button onclick="changeColor()">Promijeni boju</button>
+        </div>
+      </div>
+      <br/>
+    <div class="center">
+        <table>
+            <thead>
+                <th>Ime</th>
+                <th>Godina rođenja</th>
+                <th>Opis</th>
+                <th>Prioritet</th>
+            </thead>
+            <tbody id="requests">
+            </tbody>
+        </table>
+    </div>
+</body>
