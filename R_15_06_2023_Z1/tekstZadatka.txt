@@ -1,0 +1,6 @@
+Napraviti Angular aplikaciju koja ima 3 stranice. Na prvoj stranici se nalazi forma gdje korisnik unosi podatke: ime, prezime (obavezna polja) i email (opciono, validirati format). Ispod forme za unos podataka nalazi se dugme koje se ne može kliknuti dok forma nije validna. Klikom na to dugme podaci se čuvaju u localStorage.
+
+Na drugoj stranici nalazi se polje za unos broja koji predstavlja ID, nakon čega se učitavaju podaci sa linka
+https://jsonplaceholder.typicode.com/posts?userId=ID i prikazuju u tabeli.
+
+Na trećoj stranici se prikazuju podaci iz localStorage objekta i forma za izvršavanje osnovnih matematičkih operacija (sabiranje, oduzimanje, množenje i dijeljenje -> opcija se bira iz select/combo box-a) nad 2 broja koja se unose na formi. Operacije se nalaze između input polja, a rezultat se prikazuje nakon drugog input polja u readonly input polju, kada su unesene obe vrijednosti i izabran operator. Nema dodatnog klika za računanje. Sva polja se nalaze u istom redu.

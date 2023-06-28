@@ -1,0 +1,11 @@
+<p>third-page works!</p>
+
+<input type="number" placeholder="First number" [(ngModel)]="firstNumber">
+<select [(ngModel)]="operator">
+    <option value="add">Addition (+)</option>
+    <option value="subtract">Subtraction (-)</option>
+    <option value="multiply">Multiplication (*)</option>
+    <option value="divide">Division (/)</option>
+  </select>
+  <input type="number" placeholder="Second number" [(ngModel)]="secondNumber">
+  <input type="number" placeholder="Result" [value]="calculateResult()" readonly>
