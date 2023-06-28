@@ -9,3 +9,18 @@
   </select>
   <input type="number" placeholder="Second number" [(ngModel)]="secondNumber">
   <input type="number" placeholder="Result" [value]="calculateResult()" readonly>
+  <br>
+  <table>
+    <thead>
+        <th>Ime</th>
+        <th>Prezime</th>
+        <th>E-mail</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let element of array">
+            <td>{{ element.name }}</td>
+            <td>{{ element.lastName }}</td>
+            <td>{{ element.email }}</td>
+        </tr>
+    </tbody>
+  </table>

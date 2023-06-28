@@ -11,6 +11,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 })
 export class FirstPageComponent {
   public firstForm : FormGroup;
+  array: any[] = [];
 
   constructor(private formBuilder: FormBuilder, private localStorageService: LocalStorageServiceService) {
     this.firstForm = formBuilder.group({
@@ -26,9 +27,9 @@ export class FirstPageComponent {
       lastName:  this.firstForm.value.lastName,
       email:  this.firstForm.value.email,
     };
-    
+    this.array.push(data);
     // save to localstorage
-    const jsonData = JSON.stringify(data);
+    const jsonData = JSON.stringify(this.array);
     localStorage.setItem('KEY', jsonData);
     this.firstForm.reset();
   }

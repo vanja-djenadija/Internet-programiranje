@@ -9,6 +9,13 @@ export class ThirdPageComponent {
   firstNumber: number = 0;
   secondNumber: number = 0;
   operator: string = '+';
+  array : any[] = [];
+
+  constructor() {
+    const dataString = localStorage.getItem('KEY');
+    this.array = dataString ? JSON.parse(dataString) : null;
+
+  }
 
   calculateResult(): number {
     let result: number;
