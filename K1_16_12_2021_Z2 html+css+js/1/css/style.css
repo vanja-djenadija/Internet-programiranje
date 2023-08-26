@@ -1,0 +1,51 @@
+header {
+    background-color: blue;
+    height: 60px;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+nav > div {
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    flex-basis: calc(33.33% - 20px);
+    text-align: center;
+    line-height: 40px;
+}
+
+nav > div:hover {
+    cursor: pointer;
+}
+
+nav div img {
+    width: 40px;
+    height: 40px;
+}
+
+nav > div:hover {
+    background-color: blue;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    height: 20px;
+}
+
+#firstNameTh:hover, #lastNameTh:hover {
+    cursor: pointer;
+}

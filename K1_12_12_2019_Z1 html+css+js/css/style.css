@@ -1,0 +1,40 @@
+.row-flex {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    min-height: 100px;
+}
+
+.column-flex {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    min-height: 100px;
+}
+
+.content-area {
+    padding: 8px;
+    text-align: center;
+}
+
+.row-flex div:first-child {
+    flex-basis: calc(30% - 16px);
+}
+
+.row-flex div:nth-child(2) {
+    flex-basis: calc(50% - 18px);
+}
+
+.row-flex div:nth-child(3) {
+    flex-basis: calc(20% - 16px);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:nth-child(even) {
+    color: red;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z01</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body onload="javascript:onLoad()">
+    <div class="column-flex">
+        <div class="content-area">Internet programiranje</div>
+        <div class="row-flex">
+            <div class="content-area">
+                <ul id="aList"></ul>
+            </div>
+            <div class="content-area" style="border: 1px solid black; border-radius: 4px; display: flex; flex-direction: column;">
+                <form style="margin: auto;" id="form">
+                    <label>Ime:</label>
+                    <input type="text" name="name" required />
+                    <br />
+                    <label>Ocjena:</label>
+                    <input type="number" name="grade" min="5" max="10" required />
+                    <br />
+                </form>
+                <button style="width: 30%; margin: auto;" onclick="javascript:save()">Sacuvajte</button>
+            </div>
+            <div class="content-area">
+                <p id="dateTime"></p>
+            </div>
+        </div>
+        <div class="row-flex">
+            <div class="content-area">&nbsp;</div>
+            <div class="content-area">
+                <p>Sačuvano je <span id="noElements"></span> elemenata.</p>
+                <p id="stats"></p>
+            </div>
+            <div id="f" class="content-area">&nbsp;</div>
+        </div>
+    </div>
+</body>
+</html>

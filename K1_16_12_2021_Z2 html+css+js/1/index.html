@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocetna</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+</head>
+<body onload="javascript:onLoad()">
+    <header>Internet programiranje 2021</header>
+    <nav>
+        <div onclick="javascript:tab1()">Svi studenti</div>
+        <div onclick="javascript:tab2()">Dodavanje studenta</div>
+        <div>
+            <a id="link" href="https://www.etf.unibl.org" target="_blank">
+                <img src="https://el.etfbl.net/login_page_1.jpg"/>
+            </a>
+        </div>
+    </nav>
+    <a id="link" style="display: none;" href="https://www.etf.unibl.org" target="_blank"></a>
+    <div id="tabContent">
+        <div id="tab1">
+            <button onclick="javascript:deleteAll()">Obrisi sve</button>
+            <table>
+                <thead>
+                    <th id="firstNameTh" onclick="javascript:sortByFirstName()">Ime</th>
+                    <th id="lastNameTh" onclick="javascript:sortByLastName()">Prezime</th>
+                    <th>Broj indeksa</th>
+                    <th>Godina studija</th>
+                    <th>Studijski program</th>
+                    <th>Status</th>
+                    <th>Napomena</th>
+                </thead>
+                <tbody id="tableContent">
+
+                </tbody>
+            </table>
+        </div>
+        <div id="tab2" style="display: none;">
+            <form id="form" action="javascript:save()">
+                <label>Ime:</label>
+                <input type="text" maxlength="20" required name="firstName" />
+                <br />
+                <label>Prezime:</label>
+                <input type="text" maxlength="20" required name="lastName" />
+                <br />
+                <label>Broj indeksa:</label>
+                <input type="text" pattern="[0-9]{4}/[0-9]{2}" required name="index" />
+                <br />
+                <label>Godina studija:</label>
+                <input type="number" min="1" max="4" name="year" required />
+                <br />
+                <label>Studijski program:</label>
+                <select name="program" required>
+                    <option value="RI">RI</option>
+                    <option value="ET">ET</option>
+                    <option value="EA">EA</option>
+                </select>
+                <br />
+                <label>Status:</label>
+                <input type="radio" required name="status" value="Upis" /><label>Upis</label>
+                <input type="radio" required name="status" value="Obnova" /><label>Obnova</label>
+                <br />
+                <label>Napomena:</label>
+                <input type="text" name="note" />
+                <br />
+                <input type="submit" />
+                <input type="reset" />
+            </form>
+        </div>
+    </div>
+</body>
+</html>

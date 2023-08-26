@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sr-rs">
+  <head>
+    <title>Drugi zadatak</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/script.js"></script>
+  </head>
+  <body onload="init()">
+    <div class="column-container">
+      <div class="row-container">
+        <div class="card">
+          <ol>
+            <li>IP</li>
+            <li>PJ2</li>
+            <li>MDP</li>
+          </ol>
+        </div>
+        <div class="card">
+          <img
+            alt="ETF Image"
+            src="https://el.etfbl.net/login_page_1.jpg"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div class="card">
+          <table class="students-table">
+            <caption>
+              Tabela
+            </caption>
+            <colgroup>
+              <col style="width: 33.33%" />
+              <col style="width: 33.33%" />
+              <col style="width: 33.33%" />
+            </colgroup>
+            <tr>
+              <th>Ime</th>
+              <th>Prezime</th>
+              <th>Broj indeksa</th>
+            </tr>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row-container">
+        <div class="card">
+          <div class="center">
+            <a href="https://etf.unibl.org/" target="_blank">Link</a>
+          </div>
+        </div>
+        <div class="card">
+          <form action="javascript:saveData()" method="post" id="form">
+            <label for="name">Ime:</label>
+            <input type="text" id="name" name="name" required /> <br />
+            <label for="birth">Godina rođenja:</label>
+            <input
+              type="number"
+              name="birth"
+              id="birth"
+              min="1920"
+              max="2022"
+              required
+            /><br />
+            <label for="description">Opis:</label>
+            <textarea id="description" name="description" required></textarea
+            ><br />
+            <label for="priority">Prioritet:</label>
+            <select id="priority" required>
+              <option value="visok">Visok</option>
+              <option value="srednji">Srednji</option>
+              <option value="nizak">Nizak</option>
+            </select>
+            <br />
+            <input type="submit" name="Submit" />
+          </form>
+        </div>
+        <div class="card">
+          <button onclick="javascript:changeCardColor()">
+            Promijeni boje kartica
+          </button>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="requests-table">
+      <table>
+        <caption>
+          Zahtjevi
+        </caption>
+        <tr>
+          <th>Ime</th>
+          <th>Godina rođenja</th>
+          <th>Opis</th>
+          <th>Prioritet</th>
+        </tr>
+        <tbody id="requests-content"></tbody>
+      </table>
+    </div>
+  </body>
+</html>

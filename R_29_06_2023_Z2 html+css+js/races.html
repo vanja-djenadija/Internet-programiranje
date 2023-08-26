@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prikaz trka</title>
+        <link rel="stylesheet" href="racesStyle.css">
+        <script src="racesScript.js"></script>
+    </head>
+    <body onload="init()">
+        <div class="column-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th onclick="javascript:sortByNazivTrke()" class="cursor-pointer">Naziv trke</th>
+                        <th onclick="javascript:sortByNazivStaze()" class="cursor-pointer">Naziv staze</th>
+                        <th>Lokacija</th>
+                        <th>Drzava</th>
+                        <th>Datum</th>
+                        <th>Vrijeme</th>
+                        <th>Link</th>
+                        <th>Dodaj/Ukloni</th>
+                    </tr>
+                </thead>
+                <tbody id="body-content">
+                    
+                </tbody>
+            </table>
+            <button onclick="javascript:deleteMyFavourites()" class="width-200">Obrisi omiljene trke</button>
+        </div>
+    </body>
+</html>

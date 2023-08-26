@@ -1,0 +1,13 @@
+<form (ngSubmit)="submitForm()" [formGroup]="firstForm">
+    <label>Ime:</label>
+    <input type="text" name="name" formControlName="name">
+    <br>
+    <label>Prezime:</label>
+    <input type="text" name="lastName" formControlName="lastName">
+    <br>
+    <label>Email:</label>
+    <input type="email" name="email" formControlName="email">
+    <br>
+    <button type="submit" [disabled]="firstForm.invalid">Sačuvaj</button>
+  </form>
+  
