@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body onload="initSecond()">
+    <div class="center">
+
+        <form method="post" action="javascript:save()">
+            <label for="grade">Grade:</label>
+            <input type="number" min="1" max="5" id="grade" name="grade" /><br>
+            <label for="comment">Comment:</label>
+            <input type="text" id="comment" name="comment" /><br>
+            <input type="submit" value="Save" />
+        </form>
+        <br>
+        <div id="content">
+        </div>
+    </div>
+</body>
+
+</html>
