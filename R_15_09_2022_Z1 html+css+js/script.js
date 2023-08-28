@@ -114,14 +114,7 @@ function initThird() {
 
     // 3 best posts
     // Step 1: Group posts by ID
-    const groupedReviews = reviews.reduce((groups, review) => {
-        const { id } = review;
-        if (!groups[id]) {
-            groups[id] = [];
-        }
-        groups[id].push(review);
-        return groups;
-    }, {});
+    ,
 
     console.log('Grouped reviews:', groupedReviews);
 
