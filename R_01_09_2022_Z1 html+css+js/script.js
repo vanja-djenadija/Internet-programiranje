@@ -1,11 +1,21 @@
 const URL = "https://ergast.com/api/f1/2012.json";
-const SKEY = "USER";
-key = "";
-user = {};
+const USER_KEY = "USER";
+let key = "";
+let user = {};
+let races = [];
+let favorites = [];
 
-key = "";
-races = [];
-favorites = [];
+function saveUser() {
+    let form = document.forms[0];
+    if (form) {
+        let elements = form.elements;
+        let user = {
+            firstName: elements[0].value,
+            lastName: elements[1].value
+        }
+        sessionStorage.setItem(USER_KEY, JSON.stringify(user));
+    }
+}
 
 function initSecond() {
     initKey();
@@ -23,20 +33,10 @@ function initSecond() {
     });
 }
 
-function saveUser() {
-    let form = document.forms[0];
-    if (form) {
-        let elements = form.elements;
-        var user = {
-            firstName: elements[0].value,
-            lastName: elements[1].value
-        }
-        sessionStorage.setItem(SKEY, JSON.stringify(user));
-    }
-}
+
 
 function initKey() {
-    let storage = sessionStorage.getItem(SKEY);
+    let storage = sessionStorage.getItem(USER_KEY);
     if (storage) {
         user = JSON.parse(storage);
         key = `${user.firstName} ${user.lastName}`;
