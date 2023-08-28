@@ -33,8 +33,6 @@ function initSecond() {
     });
 }
 
-
-
 function initKey() {
     let storage = sessionStorage.getItem(USER_KEY);
     if (storage) {

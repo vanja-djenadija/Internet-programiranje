@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body onload="initFirst()">
+    <header>IP Taksi prevoz</header>
+    <div class="content">
+        <div class="w-20 center">
+            <img src="https://etf.unibl.org/images/slide1.jpg" alt="image" style="width: 200px; height: 100px;" />
+        </div>
+        <div class="w-50 center">
+            <form action="javascript:saveData()" method="POST">
+                <label for="name">Ime</label>
+                <input type="text" name="name" required/><br>
+                <label for="start">Polazna tačka</label>
+                <input type="text" name="start" required/><br>
+                <label for="end">Odredište</label>
+                <input type="text" name="end" required/><br>
+                <label for="date">Datum</label>
+                <input type="date" name="date" required/><br>
+                <input type="submit" value="Sačuvaj" />
+                <button type="button" onclick="discard()">Poništi</button>
+            </form>
+        </div>
+        <div class="w-30 center">
+            <ol id="list1">
+
+            </ol>
+        </div>
+    </div>
+    <footer>IP 2022</footer>
+</body>
+
+</html>
