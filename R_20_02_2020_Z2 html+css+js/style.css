@@ -1,0 +1,30 @@
+body {
+    background-color: yellow;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    min-width: 20rem;
+    min-height: 30rem;
+    text-align: center;
+}
+
+img {
+    max-height: 15rem;
+}
+
+#position {
+    font-size: 50px;
+}
