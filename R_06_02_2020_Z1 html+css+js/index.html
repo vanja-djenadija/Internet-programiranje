@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+
+<body onload="init()">
+    <div class="center" id="form">
+        <form>
+            <input type="number" name="pin" readonly/>
+        </form><br>
+        <div class="grid">
+            <button id="1" class="key">1</button>
+            <button id="2" class="key">2</button>
+            <button id="3" class="key">3</button>
+            <button id="4" class="key">4</button>
+            <button id="5" class="key">5</button>
+            <button id="6" class="key">6</button>
+            <button id="7" class="key">7</button>
+            <button id="8" class="key">8</button>
+            <button id="9" class="key">9</button>
+            <button id="0" class="key">0</button>
+        </div><br>
+        <span>
+            <button type="button" onclick="login()">Prijava</button>
+            <button type="button" onclick="deletePin()">Brisanje</button>
+        </span>
+    </div>
+    <div id="main">
+        <header>Internet programiranje</header>
+        <div class="column-container">
+            <div class="w-70">
+                <ol id="list">
+
+                </ol>
+            </div>
+            <div class="w-30 center">
+                <button type="button" onclick="reload()">Osvježi</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
