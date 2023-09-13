@@ -1,0 +1,42 @@
+[
+   {
+      "countryId":"BE",
+      "countryName":"Belgium",
+      "regionId":1
+   },
+   {
+      "countryId":"CH",
+      "countryName":"Switzerland",
+      "regionId":1
+   },
+   {
+      "countryId":"DE",
+      "countryName":"Germany",
+      "regionId":1
+   },
+   {
+      "countryId":"DK",
+      "countryName":"Denmark",
+      "regionId":1
+   },
+   {
+      "countryId":"FR",
+      "countryName":"France",
+      "regionId":1
+   },
+   {
+      "countryId":"IT",
+      "countryName":"Italy",
+      "regionId":1
+   },
+   {
+      "countryId":"NL",
+      "countryName":"Netherlands",
+      "regionId":1
+   },
+   {
+      "countryId":"UK",
+      "countryName":"United Kingdom",
+      "regionId":1
+   }
+]

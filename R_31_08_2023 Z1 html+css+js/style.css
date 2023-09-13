@@ -1,0 +1,47 @@
+.centre {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    box-sizing: border-box;
+    overflow-y: auto;
+    max-width: 800px;
+    max-height: 800px;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.card {
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+}
+
+#next {
+    margin: 10px;
+}

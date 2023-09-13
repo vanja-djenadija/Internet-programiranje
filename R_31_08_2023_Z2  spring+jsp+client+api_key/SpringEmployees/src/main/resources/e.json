@@ -1,0 +1,16 @@
+[
+   {
+      "employeeId":101,
+      "startDate":"1989-09-20T22:00:00.000+00:00",
+      "endDate":"1993-10-26T23:00:00.000+00:00",
+      "jobId":"AC_ACCOUNT",
+      "departmentId":110
+   },
+   {
+      "employeeId":101,
+      "startDate":"1989-09-20T22:00:00.000+00:00",
+      "endDate":"1993-10-26T23:00:00.000+00:00",
+      "jobId":"AC_ACCOUNT",
+      "departmentId":110
+   }
+]

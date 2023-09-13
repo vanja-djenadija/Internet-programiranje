@@ -1,0 +1,13 @@
+{
+    "employeeId" : 100,
+	"managerId": 0,
+    "departmentId" : 90,
+	"firstName": "STEVEN", 
+    "lastName": "KING", 
+    "email": "SKING", 
+    "phone": null, 
+    "jobId": "AD_PRES",
+	"hireDate": "1987-06-17",
+	"salary": 24000, 
+    "commisionPct" : null
+}
