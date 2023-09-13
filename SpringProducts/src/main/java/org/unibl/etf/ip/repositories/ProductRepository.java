@@ -7,5 +7,7 @@ import org.unibl.etf.ip.entities.Product;
 
 public interface ProductRepository extends JpaRepository<Product, String> {
 
-	List<Product> findByProductCode(String productCode);
+	List<Product> findAllByProductCode(String productCode);
+	List<Product> findAllByBuyPriceGreaterThanEqual(Double buyPrice);
+	List<Product> findAllByQuantityInStockBetween(Integer start, Integer end);
 }

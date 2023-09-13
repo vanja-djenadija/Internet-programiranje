@@ -1,0 +1,134 @@
+[
+    {
+        "productCode": "S18_1097",
+        "productName": "1940 Ford Pickup Truck",
+        "productLine": "Trucks and Buses",
+        "productScale": "1:18",
+        "productVendor": "Studio M Art Models",
+        "productDescription": "This model features soft rubber tires, working steering, rubber mud guards, authentic Ford logos, detailed undercarriage, opening doors and hood,  removable split rear gate, full size spare mounted in bed, detailed interior with opening glove box",
+        "quantityInStock": 2613,
+        "buyPrice": 58.33,
+        "msrp": 116.67
+    },
+    {
+        "productCode": "S18_1749",
+        "productName": "1917 Grand Touring Sedan",
+        "productLine": "Vintage Cars",
+        "productScale": "1:18",
+        "productVendor": "Welly Diecast Productions",
+        "productDescription": "This 1:18 scale replica of the 1917 Grand Touring car has all the features you would expect from museum quality reproductions: all four doors and bi-fold hood opening, detailed engine and instrument panel, chrome-look trim, and tufted upholstery, all topped off with a factory baked-enamel finish.",
+        "quantityInStock": 2724,
+        "buyPrice": 86.7,
+        "msrp": 170.0
+    },
+    {
+        "productCode": "S18_2432",
+        "productName": "1926 Ford Fire Engine",
+        "productLine": "Trucks and Buses",
+        "productScale": "1:18",
+        "productVendor": "Carousel DieCast Legends",
+        "productDescription": "Gleaming red handsome appearance. Everything is here the fire hoses, ladder, axes, bells, lanterns, ready to fight any inferno.",
+        "quantityInStock": 2018,
+        "buyPrice": 24.92,
+        "msrp": 60.77
+    },
+    {
+        "productCode": "S18_3856",
+        "productName": "1941 Chevrolet Special Deluxe Cabriolet",
+        "productLine": "Vintage Cars",
+        "productScale": "1:18",
+        "productVendor": "Exoto Designs",
+        "productDescription": "Features opening hood, opening doors, opening trunk, wide white wall tires, front door arm rests, working steering system, leather upholstery. Color black.",
+        "quantityInStock": 2378,
+        "buyPrice": 64.58,
+        "msrp": 105.87
+    },
+    {
+        "productCode": "S24_2022",
+        "productName": "1938 Cadillac V-16 Presidential Limousine",
+        "productLine": "Vintage Cars",
+        "productScale": "1:24",
+        "productVendor": "Classic Metal Creations",
+        "productDescription": "This 1:24 scale precision die cast replica of the 1938 Cadillac V-16 Presidential Limousine has all the details of the original, from the flags on the front to an opening back seat compartment complete with telephone and rifle. Features factory baked-enamel black finish, hood goddess ornament, working jump seats.",
+        "quantityInStock": 2847,
+        "buyPrice": 20.61,
+        "msrp": 44.8
+    },
+    {
+        "productCode": "S24_2300",
+        "productName": "1962 Volkswagen Microbus",
+        "productLine": "Trucks and Buses",
+        "productScale": "1:24",
+        "productVendor": "Autoart Studio Design",
+        "productDescription": "This 1:18 scale die cast replica of the 1962 Microbus is loaded with features: A working steering system, opening front doors and tailgate, and famous two-tone factory baked enamel finish, are all topped of by the sliding, real fabric, sunroof.",
+        "quantityInStock": 2327,
+        "buyPrice": 61.34,
+        "msrp": 127.79
+    },
+    {
+        "productCode": "S24_2766",
+        "productName": "1949 Jaguar XK 120",
+        "productLine": "Classic Cars",
+        "productScale": "1:24",
+        "productVendor": "Classic Metal Creations",
+        "productDescription": "Precision-engineered from original Jaguar specification in perfect scale ratio. Features opening doors, superb detail and craftsmanship, working steering system, opening forward compartment, opening rear trunk with removable spare, 4 wheel independent spring suspension as well as factory baked enamel finish.",
+        "quantityInStock": 2350,
+        "buyPrice": 47.25,
+        "msrp": 90.87
+    },
+    {
+        "productCode": "S24_2840",
+        "productName": "1958 Chevy Corvette Limited Edition",
+        "productLine": "Classic Cars",
+        "productScale": "1:24",
+        "productVendor": "Carousel DieCast Legends",
+        "productDescription": "The operating parts of this 1958 Chevy Corvette Limited Edition are particularly delicate due to their precise scale and require special care and attention. Features rotating wheels, working streering, opening doors and trunk. Color dark green.",
+        "quantityInStock": 2542,
+        "buyPrice": 15.91,
+        "msrp": 35.36
+    },
+    {
+        "productCode": "S24_3420",
+        "productName": "1937 Horch 930V Limousine",
+        "productLine": "Vintage Cars",
+        "productScale": "1:24",
+        "productVendor": "Autoart Studio Design",
+        "productDescription": "Features opening hood, opening doors, opening trunk, wide white wall tires, front door arm rests, working steering system",
+        "quantityInStock": 2902,
+        "buyPrice": 26.3,
+        "msrp": 65.75
+    },
+    {
+        "productCode": "S24_3969",
+        "productName": "1936 Mercedes Benz 500k Roadster",
+        "productLine": "Vintage Cars",
+        "productScale": "1:24",
+        "productVendor": "Red Start Diecast",
+        "productDescription": "This model features grille-mounted chrome horn, lift-up louvered hood, fold-down rumble seat, working steering system and rubber wheels. Color black.",
+        "quantityInStock": 2081,
+        "buyPrice": 21.75,
+        "msrp": 41.03
+    },
+    {
+        "productCode": "S24_4278",
+        "productName": "1900s Vintage Tri-Plane",
+        "productLine": "Planes",
+        "productScale": "1:24",
+        "productVendor": "Unimax Art Galleries",
+        "productDescription": "Hand crafted diecast-like metal Triplane is Re-created in about 1:24 scale of antique pioneer airplane. This antique style metal triplane is all hand-assembled with many different parts.",
+        "quantityInStock": 2756,
+        "buyPrice": 36.23,
+        "msrp": 72.45
+    },
+    {
+        "productCode": "S32_2509",
+        "productName": "1954 Greyhound Scenicruiser",
+        "productLine": "Trucks and Buses",
+        "productScale": "1:32",
+        "productVendor": "Classic Metal Creations",
+        "productDescription": "Model features bi-level seating, 50 windows, skylights & glare resistant glass, working steering system, original logos",
+        "quantityInStock": 2874,
+        "buyPrice": 25.98,
+        "msrp": 54.11
+    }
+]

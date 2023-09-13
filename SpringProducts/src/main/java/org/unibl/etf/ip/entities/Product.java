@@ -8,7 +8,6 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "products")
 public class Product {
-
 	@Id
 	@Column(name = "productcode")
 	private String productCode;

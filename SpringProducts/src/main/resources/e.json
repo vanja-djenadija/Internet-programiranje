@@ -1,0 +1,47 @@
+[
+    {
+        "customerNumber": 321,
+        "customerName": "Corporate Gift Ideas Co.",
+        "contactLastName": "Brown",
+        "contactFirstName": "Julie",
+        "phone": "6505551386",
+        "addressLine1": "7734 Strong St.",
+        "addressLine2": null,
+        "city": "San Francisco",
+        "state": "CA",
+        "postalCode": "94217",
+        "country": "USA",
+        "salesRepEmployeeNumber": 1165,
+        "creditLimit": 105000.0
+    },
+    {
+        "customerNumber": 324,
+        "customerName": "Stylish Desk Decors, Co.",
+        "contactLastName": "Brown",
+        "contactFirstName": "Ann ",
+        "phone": "(171) 555-0297",
+        "addressLine1": "35 King George",
+        "addressLine2": null,
+        "city": "London",
+        "state": null,
+        "postalCode": "WX3 6FW",
+        "country": "UK",
+        "salesRepEmployeeNumber": 1501,
+        "creditLimit": 77000.0
+    },
+    {
+        "customerNumber": 328,
+        "customerName": "Tekni Collectables Inc.",
+        "contactLastName": "Brown",
+        "contactFirstName": "William",
+        "phone": "2015559350",
+        "addressLine1": "7476 Moss Rd.",
+        "addressLine2": null,
+        "city": "Newark",
+        "state": "NJ",
+        "postalCode": "94019",
+        "country": "USA",
+        "salesRepEmployeeNumber": 1323,
+        "creditLimit": 43000.0
+    }
+]
