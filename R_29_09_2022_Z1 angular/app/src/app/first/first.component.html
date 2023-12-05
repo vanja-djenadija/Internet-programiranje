@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <form method="POST" action="">
+    <form [formGroup]="firstForm" (ngSubmit)="">
         <div class="row">
             <label for="firstName">First Name &nbsp;</label>
             <input type="text" name="firstName" required/>
